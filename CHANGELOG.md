@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.0 - 2023-06-25
+### Changed
+- Dependencies upgrades
+- Update node engines to next LTS
+
 ## 1.0.4 - 2021-04-06
 ### Changed
 - Re-release of 1.0.3 with proper release archive
