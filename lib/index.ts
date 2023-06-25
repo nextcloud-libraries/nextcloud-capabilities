@@ -8,6 +8,6 @@ export function getCapabilities(): Object {
 		if (!('_oc_capabilities' in window)) {
 			return {}
 		}
-		return window['_oc_capabilities']
+		return window['_oc_capabilities'] as Object
 	}
 }
