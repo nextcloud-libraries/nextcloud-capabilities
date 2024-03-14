@@ -1,3 +1,3 @@
 # @nextcloud/capabilities
 
-Nextcloud helper to obtain the capabilities
+Nextcloud helper to obtain the server capabilities in apps.

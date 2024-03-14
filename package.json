@@ -1,8 +1,7 @@
 {
   "name": "@nextcloud/capabilities",
   "version": "1.1.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Nextcloud helper to obtain the server capabilities",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "babel ./lib --out-dir dist --extensions '.ts,.tsx' --source-maps && tsc --emitDeclarationOnly",
@@ -15,12 +14,12 @@
   "keywords": [
     "nextcloud"
   ],
-  "homepage": "https://github.com/nextcloud/nextcloud-capabilities#readme",
+  "homepage": "https://github.com/nextcloud-libraries/nextcloud-capabilities#readme",
   "author": "Roeland Jago Douma",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nextcloud/nextcloud-capabilities"
+    "url": "https://github.com/nextcloud-libraries/nextcloud-capabilities"
   },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
