@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.0 - 2024-04-08
+### Changed
+- Switched to vite for bundling
+- Dependencies upgrades
+- Update node engines to next LTS
+  - Adjust NPM version to 10 to match current Node LTS 20
+
 ## 1.1.0 - 2023-06-25
 ### Changed
 - Dependencies upgrades

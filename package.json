@@ -1,6 +1,6 @@
 {
   "name": "@nextcloud/capabilities",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Nextcloud helper to obtain the server capabilities",
   "type": "module",
   "main": "dist/index.cjs",
@@ -44,6 +44,6 @@
     "@types/node": "^20.11.27",
     "typedoc": "^0.25.12",
     "typescript": "^5.4.2",
-    "vite": "^5.1.7"
+    "vite": "^5.2.8"
   }
 }
