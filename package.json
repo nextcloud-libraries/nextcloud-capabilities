@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@nextcloud/browserslist-config": "^3.0.0",
-    "@nextcloud/vite-config": "^1.2.2",
+    "@nextcloud/vite-config": "^2.0.0",
     "@types/node": "^20.11.27",
     "typedoc": "^0.25.12",
     "typescript": "^5.4.2",
