@@ -2,9 +2,17 @@
   "name": "@nextcloud/capabilities",
   "version": "1.2.0",
   "description": "Nextcloud helper to obtain the server capabilities",
+  "keywords": [
+    "nextcloud"
+  ],
+  "homepage": "https://github.com/nextcloud-libraries/nextcloud-capabilities#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextcloud-libraries/nextcloud-capabilities"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Roeland Jago Douma",
   "type": "module",
-  "main": "dist/index.cjs",
-  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -12,29 +20,17 @@
       "require": "./dist/index.cjs"
     }
   },
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "vite --mode production build",
     "build:doc": "typedoc --out dist/doc lib && touch dist/doc/.nojekyll",
     "dev": "vite --mode development build",
     "watch": "vite --mode development build --watch"
   },
-  "keywords": [
-    "nextcloud"
-  ],
-  "homepage": "https://github.com/nextcloud-libraries/nextcloud-capabilities#readme",
-  "author": "Roeland Jago Douma",
-  "license": "GPL-3.0-or-later",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nextcloud-libraries/nextcloud-capabilities"
-  },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
   ],
-  "engines": {
-    "node": "^20.0.0",
-    "npm": "^10.0.0"
-  },
   "dependencies": {
     "@nextcloud/initial-state": "^2.1.0"
   },
@@ -44,6 +40,10 @@
     "@types/node": "^24.0.3",
     "typedoc": "^0.28.1",
     "typescript": "^5.4.2",
-    "vite": "^5.2.8"
+    "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": "^20.0.0",
+    "npm": "^10.5.0"
   }
 }
