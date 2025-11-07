@@ -36,11 +36,11 @@
   },
   "devDependencies": {
     "@nextcloud/browserslist-config": "^3.0.0",
-    "@nextcloud/vite-config": "^2.1.0",
+    "@nextcloud/vite-config": "^2.5.2",
     "@types/node": "^24.0.3",
     "typedoc": "^0.28.1",
     "typescript": "^5.4.2",
-    "vite": "^6.3.5"
+    "vite": "^7.2.1"
   },
   "engines": {
     "node": "^20.0.0 || ^22.0.0 || ^24.0.0"
