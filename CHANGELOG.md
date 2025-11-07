@@ -6,6 +6,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.1 - 2025-11-07
+### Changed
+* Add SPDX headers
+* chore: update Node and NPM version
+  This package now supports being used with Node 22 and Node 24.
+* chore(deps): Bump `@nextcloud/initial-state` to 3.0.0
+* ci: update workflows from organization
+
 ## 1.2.0 - 2024-04-08
 ### Changed
 - Switched to vite for bundling
