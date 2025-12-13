@@ -38,7 +38,7 @@
     "@nextcloud/browserslist-config": "^3.1.2",
     "@nextcloud/vite-config": "^2.5.2",
     "@types/node": "^25.0.1",
-    "typedoc": "^0.28.1",
+    "typedoc": "^0.28.15",
     "typescript": "^5.4.2",
     "vite": "^7.2.7"
   },
